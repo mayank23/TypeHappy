@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import React
 
 class KeyboardViewController: UIInputViewController {
 
@@ -23,7 +24,6 @@ class KeyboardViewController: UIInputViewController {
         
         // Perform custom UI setup here
         self.nextKeyboardButton = UIButton(type: .system)
-        
         self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
         self.nextKeyboardButton.sizeToFit()
         self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
@@ -34,6 +34,16 @@ class KeyboardViewController: UIInputViewController {
         
         self.nextKeyboardButton.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
         self.nextKeyboardButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
+        let jsCodeLocation = URL(string: "http://192.168.2.5:8081/index.ios.bundle?platform=ios")
+        let reactRootView = RCTRootView(
+            bundleURL: jsCodeLocation,
+            moduleName: "THYKeyboard",
+            initialProperties: nil,
+            launchOptions: nil
+        )
+        let reactRootViewController = UIInputViewController()
+        reactRootViewController.view = reactRootView
+        self.present(reactRootViewController, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {

@@ -15,6 +15,8 @@
 		A8228EF31F09EB9000D84715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8228EF11F09EB9000D84715 /* LaunchScreen.storyboard */; };
 		A8228F011F09EBDD00D84715 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8228F001F09EBDD00D84715 /* KeyboardViewController.swift */; };
 		A8228F051F09EBDD00D84715 /* TypeHappyKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8228EFE1F09EBDD00D84715 /* TypeHappyKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A8242E0E1F0AC26300E6235B /* RNTextDocumentProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8242E0D1F0AC26300E6235B /* RNTextDocumentProxy.swift */; };
+		A8242E111F0AECA900E6235B /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8242E101F0AECA900E6235B /* Keyboard.storyboard */; };
 		D661A878633C0E32A2C4AE40 /* Pods_TypeHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437B70D4DE30132EF114AD60 /* Pods_TypeHappy.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +45,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10CD15A3EC4940DC98F84AA9 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		129C1C1DB0CB4DCD9658836C /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		17DB1AB90E0796650C08B394 /* Pods-TypeHappyKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappyKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappyKeyboard/Pods-TypeHappyKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		2E1AD58AF7104B55A5963671 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		437B70D4DE30132EF114AD60 /* Pods_TypeHappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeHappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		516A3E1B5F35C51211D9DE4B /* Pods-TypeHappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappy/Pods-TypeHappy.release.xcconfig"; sourceTree = "<group>"; };
+		568B2728D15643B88C1FCB9E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		585B238DA9224162A8A546FD /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		59176996DEDAFC61FCF47D60 /* Pods_TypeHappyKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeHappyKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACB27E826D94F2B89B14971 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		8D7FCA8671FD4BDC91CD02FA /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		977D89B0A7F14AB0A6E5B694 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		9FDBAEEBFE0B42BAB2F928FF /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		A8228EE51F09EB9000D84715 /* TypeHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8228EE81F09EB9000D84715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8228EEA1F09EB9000D84715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +68,11 @@
 		A8228EFE1F09EBDD00D84715 /* TypeHappyKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TypeHappyKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8228F001F09EBDD00D84715 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		A8228F021F09EBDD00D84715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8242E0D1F0AC26300E6235B /* RNTextDocumentProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNTextDocumentProxy.swift; sourceTree = "<group>"; };
+		A8242E0F1F0AC38A00E6235B /* TypeHappyKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypeHappyKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		A8242E101F0AECA900E6235B /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
 		BDE101E37326E008980F3D24 /* Pods-TypeHappyKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappyKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappyKeyboard/Pods-TypeHappyKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		D5A307A65BC0419AA850C172 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		F6AA2B5CF82B25A2C5D8E9E0 /* Pods-TypeHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappy/Pods-TypeHappy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +96,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		234F19C808214E8EB08E439D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		5A713999A55EB0F71CA99B50 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,23 @@
 				59176996DEDAFC61FCF47D60 /* Pods_TypeHappyKeyboard.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7460B457667E4E0182D3DB4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				10CD15A3EC4940DC98F84AA9 /* Entypo.ttf */,
+				977D89B0A7F14AB0A6E5B694 /* EvilIcons.ttf */,
+				7ACB27E826D94F2B89B14971 /* FontAwesome.ttf */,
+				8D7FCA8671FD4BDC91CD02FA /* Foundation.ttf */,
+				585B238DA9224162A8A546FD /* Ionicons.ttf */,
+				568B2728D15643B88C1FCB9E /* MaterialCommunityIcons.ttf */,
+				9FDBAEEBFE0B42BAB2F928FF /* MaterialIcons.ttf */,
+				D5A307A65BC0419AA850C172 /* Octicons.ttf */,
+				2E1AD58AF7104B55A5963671 /* SimpleLineIcons.ttf */,
+				129C1C1DB0CB4DCD9658836C /* Zocial.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A8228EDC1F09EB9000D84715 = {
@@ -98,6 +137,8 @@
 				A8228EE61F09EB9000D84715 /* Products */,
 				C375132B0C601DD2D0ADC0AB /* Pods */,
 				5A713999A55EB0F71CA99B50 /* Frameworks */,
+				234F19C808214E8EB08E439D /* Libraries */,
+				7460B457667E4E0182D3DB4E /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +169,9 @@
 			children = (
 				A8228F001F09EBDD00D84715 /* KeyboardViewController.swift */,
 				A8228F021F09EBDD00D84715 /* Info.plist */,
+				A8242E0D1F0AC26300E6235B /* RNTextDocumentProxy.swift */,
+				A8242E0F1F0AC38A00E6235B /* TypeHappyKeyboard-Bridging-Header.h */,
+				A8242E101F0AECA900E6235B /* Keyboard.storyboard */,
 			);
 			path = TypeHappyKeyboard;
 			sourceTree = "<group>";
@@ -193,8 +237,8 @@
 		A8228EDD1F09EB9000D84715 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 830;
+				LastUpgradeCheck = 830;
 				ORGANIZATIONNAME = "Mayank Jethva";
 				TargetAttributes = {
 					A8228EE41F09EB9000D84715 = {
@@ -243,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8242E111F0AECA900E6235B /* Keyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8242E0E1F0AC26300E6235B /* RNTextDocumentProxy.swift in Sources */,
 				A8228F011F09EBDD00D84715 /* KeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +524,12 @@
 				DEVELOPMENT_TEAM = A5UA9B45PR;
 				INFOPLIST_FILE = TypeHappy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -493,6 +545,12 @@
 				DEVELOPMENT_TEAM = A5UA9B45PR;
 				INFOPLIST_FILE = TypeHappy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -506,9 +564,16 @@
 				DEVELOPMENT_TEAM = A5UA9B45PR;
 				INFOPLIST_FILE = TypeHappyKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy.TypeHappyKeyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TypeHappyKeyboard/TypeHappyKeyboard-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -520,9 +585,16 @@
 				DEVELOPMENT_TEAM = A5UA9B45PR;
 				INFOPLIST_FILE = TypeHappyKeyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy.TypeHappyKeyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TypeHappyKeyboard/TypeHappyKeyboard-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -546,6 +618,7 @@
 				A8228EF91F09EB9000D84715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8228F061F09EBDD00D84715 /* Build configuration list for PBXNativeTarget "TypeHappyKeyboard" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +627,7 @@
 				A8228F081F09EBDD00D84715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

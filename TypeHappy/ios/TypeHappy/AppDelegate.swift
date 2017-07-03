@@ -13,10 +13,13 @@ import React
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    
+    var rctBridge : RCTBridge?;
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        self.window?.rootViewController = ReactBootstrap.bootstrapRootViewController()
+        let jsCodeLocation = URL(string: "http://192.168.2.5:8081/index.ios.bundle?platform=ios");
+        self.rctBridge = RCTBridge.init(bundleURL: jsCodeLocation, moduleProvider: nil, launchOptions: nil)
+        self.window?.rootViewController = ReactBootstrap.bootstrapRootViewController(rctBridge: rctBridge!)
         self.window?.makeKeyAndVisible()
         return true
     }
@@ -47,7 +50,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 class ReactBootstrap {
-    static func bootstrapRootViewController() -> UIViewController{
+   
+    /*static func bootstrapRootViewController() -> UIViewController{
         let jsCodeLocation = URL(string: "http://localhost:8081/index.ios.bundle?platform=ios")
         let reactRootView = RCTRootView(
             bundleURL: jsCodeLocation,
@@ -58,6 +62,13 @@ class ReactBootstrap {
         let reactRootViewController = UIViewController()
         reactRootViewController.view = reactRootView
         return reactRootViewController;
-    }
+    }*/
+    
+    static func bootstrapRootViewController(rctBridge: RCTBridge) -> UIViewController{
+     let reactRootView = RCTRootView.init(bridge: rctBridge, moduleName: "THYHome", initialProperties: nil)
+     let reactRootViewController = UIViewController()
+     reactRootViewController.view = reactRootView
+     return reactRootViewController;
+     }
 }
 
