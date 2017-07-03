@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70CB9394B13847E50C9A70FC /* Pods_TypeHappyKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59176996DEDAFC61FCF47D60 /* Pods_TypeHappyKeyboard.framework */; };
+		A8228EE91F09EB9000D84715 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8228EE81F09EB9000D84715 /* AppDelegate.swift */; };
+		A8228EEB1F09EB9000D84715 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8228EEA1F09EB9000D84715 /* ViewController.swift */; };
+		A8228EEE1F09EB9000D84715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8228EEC1F09EB9000D84715 /* Main.storyboard */; };
+		A8228EF01F09EB9000D84715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8228EEF1F09EB9000D84715 /* Assets.xcassets */; };
+		A8228EF31F09EB9000D84715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8228EF11F09EB9000D84715 /* LaunchScreen.storyboard */; };
+		A8228F011F09EBDD00D84715 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8228F001F09EBDD00D84715 /* KeyboardViewController.swift */; };
+		A8228F051F09EBDD00D84715 /* TypeHappyKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8228EFE1F09EBDD00D84715 /* TypeHappyKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D661A878633C0E32A2C4AE40 /* Pods_TypeHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437B70D4DE30132EF114AD60 /* Pods_TypeHappy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8228F031F09EBDD00D84715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8228EDD1F09EB9000D84715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8228EFD1F09EBDD00D84715;
+			remoteInfo = TypeHappyKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8228F091F09EBDD00D84715 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A8228F051F09EBDD00D84715 /* TypeHappyKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17DB1AB90E0796650C08B394 /* Pods-TypeHappyKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappyKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappyKeyboard/Pods-TypeHappyKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		437B70D4DE30132EF114AD60 /* Pods_TypeHappy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeHappy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		516A3E1B5F35C51211D9DE4B /* Pods-TypeHappy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappy.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappy/Pods-TypeHappy.release.xcconfig"; sourceTree = "<group>"; };
+		59176996DEDAFC61FCF47D60 /* Pods_TypeHappyKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TypeHappyKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8228EE51F09EB9000D84715 /* TypeHappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeHappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8228EE81F09EB9000D84715 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8228EEA1F09EB9000D84715 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8228EED1F09EB9000D84715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8228EEF1F09EB9000D84715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8228EF21F09EB9000D84715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8228EF41F09EB9000D84715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8228EFE1F09EBDD00D84715 /* TypeHappyKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TypeHappyKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8228F001F09EBDD00D84715 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		A8228F021F09EBDD00D84715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE101E37326E008980F3D24 /* Pods-TypeHappyKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappyKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappyKeyboard/Pods-TypeHappyKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		F6AA2B5CF82B25A2C5D8E9E0 /* Pods-TypeHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappy/Pods-TypeHappy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8228EE21F09EB9000D84715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D661A878633C0E32A2C4AE40 /* Pods_TypeHappy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8228EFB1F09EBDD00D84715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CB9394B13847E50C9A70FC /* Pods_TypeHappyKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A713999A55EB0F71CA99B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				437B70D4DE30132EF114AD60 /* Pods_TypeHappy.framework */,
+				59176996DEDAFC61FCF47D60 /* Pods_TypeHappyKeyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8228EDC1F09EB9000D84715 = {
+			isa = PBXGroup;
+			children = (
+				A8228EE71F09EB9000D84715 /* TypeHappy */,
+				A8228EFF1F09EBDD00D84715 /* TypeHappyKeyboard */,
+				A8228EE61F09EB9000D84715 /* Products */,
+				C375132B0C601DD2D0ADC0AB /* Pods */,
+				5A713999A55EB0F71CA99B50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8228EE61F09EB9000D84715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8228EE51F09EB9000D84715 /* TypeHappy.app */,
+				A8228EFE1F09EBDD00D84715 /* TypeHappyKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8228EE71F09EB9000D84715 /* TypeHappy */ = {
+			isa = PBXGroup;
+			children = (
+				A8228EE81F09EB9000D84715 /* AppDelegate.swift */,
+				A8228EEA1F09EB9000D84715 /* ViewController.swift */,
+				A8228EEC1F09EB9000D84715 /* Main.storyboard */,
+				A8228EEF1F09EB9000D84715 /* Assets.xcassets */,
+				A8228EF11F09EB9000D84715 /* LaunchScreen.storyboard */,
+				A8228EF41F09EB9000D84715 /* Info.plist */,
+			);
+			path = TypeHappy;
+			sourceTree = "<group>";
+		};
+		A8228EFF1F09EBDD00D84715 /* TypeHappyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A8228F001F09EBDD00D84715 /* KeyboardViewController.swift */,
+				A8228F021F09EBDD00D84715 /* Info.plist */,
+			);
+			path = TypeHappyKeyboard;
+			sourceTree = "<group>";
+		};
+		C375132B0C601DD2D0ADC0AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6AA2B5CF82B25A2C5D8E9E0 /* Pods-TypeHappy.debug.xcconfig */,
+				516A3E1B5F35C51211D9DE4B /* Pods-TypeHappy.release.xcconfig */,
+				17DB1AB90E0796650C08B394 /* Pods-TypeHappyKeyboard.debug.xcconfig */,
+				BDE101E37326E008980F3D24 /* Pods-TypeHappyKeyboard.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8228EE41F09EB9000D84715 /* TypeHappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8228EF71F09EB9000D84715 /* Build configuration list for PBXNativeTarget "TypeHappy" */;
+			buildPhases = (
+				C1C78B060B9F3E9879EBC897 /* [CP] Check Pods Manifest.lock */,
+				A8228EE11F09EB9000D84715 /* Sources */,
+				A8228EE21F09EB9000D84715 /* Frameworks */,
+				A8228EE31F09EB9000D84715 /* Resources */,
+				A8228F091F09EBDD00D84715 /* Embed App Extensions */,
+				9C461C2664E4BBB8A3ACE3F8 /* [CP] Embed Pods Frameworks */,
+				EFD84783CB7DF64E51E94D9E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8228F041F09EBDD00D84715 /* PBXTargetDependency */,
+			);
+			name = TypeHappy;
+			productName = TypeHappy;
+			productReference = A8228EE51F09EB9000D84715 /* TypeHappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8228EFD1F09EBDD00D84715 /* TypeHappyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8228F061F09EBDD00D84715 /* Build configuration list for PBXNativeTarget "TypeHappyKeyboard" */;
+			buildPhases = (
+				86CDB1708A3D573E1CDDFD74 /* [CP] Check Pods Manifest.lock */,
+				A8228EFA1F09EBDD00D84715 /* Sources */,
+				A8228EFB1F09EBDD00D84715 /* Frameworks */,
+				A8228EFC1F09EBDD00D84715 /* Resources */,
+				5C54738D6956DE887F42FFBE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TypeHappyKeyboard;
+			productName = TypeHappyKeyboard;
+			productReference = A8228EFE1F09EBDD00D84715 /* TypeHappyKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8228EDD1F09EB9000D84715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mayank Jethva";
+				TargetAttributes = {
+					A8228EE41F09EB9000D84715 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A5UA9B45PR;
+						ProvisioningStyle = Automatic;
+					};
+					A8228EFD1F09EBDD00D84715 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A5UA9B45PR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A8228EE01F09EB9000D84715 /* Build configuration list for PBXProject "TypeHappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8228EDC1F09EB9000D84715;
+			productRefGroup = A8228EE61F09EB9000D84715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8228EE41F09EB9000D84715 /* TypeHappy */,
+				A8228EFD1F09EBDD00D84715 /* TypeHappyKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8228EE31F09EB9000D84715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8228EF31F09EB9000D84715 /* LaunchScreen.storyboard in Resources */,
+				A8228EF01F09EB9000D84715 /* Assets.xcassets in Resources */,
+				A8228EEE1F09EB9000D84715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8228EFC1F09EBDD00D84715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C54738D6956DE887F42FFBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeHappyKeyboard/Pods-TypeHappyKeyboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CDB1708A3D573E1CDDFD74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C461C2664E4BBB8A3ACE3F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeHappy/Pods-TypeHappy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1C78B060B9F3E9879EBC897 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD84783CB7DF64E51E94D9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TypeHappy/Pods-TypeHappy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8228EE11F09EB9000D84715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8228EEB1F09EB9000D84715 /* ViewController.swift in Sources */,
+				A8228EE91F09EB9000D84715 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8228EFA1F09EBDD00D84715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8228F011F09EBDD00D84715 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8228F041F09EBDD00D84715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8228EFD1F09EBDD00D84715 /* TypeHappyKeyboard */;
+			targetProxy = A8228F031F09EBDD00D84715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8228EEC1F09EB9000D84715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8228EED1F09EB9000D84715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8228EF11F09EB9000D84715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8228EF21F09EB9000D84715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8228EF51F09EB9000D84715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8228EF61F09EB9000D84715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8228EF81F09EB9000D84715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AA2B5CF82B25A2C5D8E9E0 /* Pods-TypeHappy.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5UA9B45PR;
+				INFOPLIST_FILE = TypeHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8228EF91F09EB9000D84715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 516A3E1B5F35C51211D9DE4B /* Pods-TypeHappy.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5UA9B45PR;
+				INFOPLIST_FILE = TypeHappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8228F071F09EBDD00D84715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17DB1AB90E0796650C08B394 /* Pods-TypeHappyKeyboard.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A5UA9B45PR;
+				INFOPLIST_FILE = TypeHappyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy.TypeHappyKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8228F081F09EBDD00D84715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDE101E37326E008980F3D24 /* Pods-TypeHappyKeyboard.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A5UA9B45PR;
+				INFOPLIST_FILE = TypeHappyKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mayank-Jethva.TypeHappy.TypeHappyKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8228EE01F09EB9000D84715 /* Build configuration list for PBXProject "TypeHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8228EF51F09EB9000D84715 /* Debug */,
+				A8228EF61F09EB9000D84715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8228EF71F09EB9000D84715 /* Build configuration list for PBXNativeTarget "TypeHappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8228EF81F09EB9000D84715 /* Debug */,
+				A8228EF91F09EB9000D84715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8228F061F09EBDD00D84715 /* Build configuration list for PBXNativeTarget "TypeHappyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8228F071F09EBDD00D84715 /* Debug */,
+				A8228F081F09EBDD00D84715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8228EDD1F09EB9000D84715 /* Project object */;
+}

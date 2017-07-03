@@ -1,0 +1,6 @@
+framework module Pods_TypeHappy {
+  umbrella header "Pods-TypeHappy-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TypeHappy.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TypeHappyKeyboard.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>React.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Yoga.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0B32FF63C36256BF5F45617EB05785BC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>10BB3A228CA444CF2D0AA544CA49DEB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E10BF1DB74E10934BDA16F2CFEB43A04</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F59BD9245B1D09AE282A603626310942</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
