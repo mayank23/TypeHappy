@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import React
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window?.rootViewController = ReactBootstrap.bootstrapRootViewController()
+        self.window?.makeKeyAndVisible()
         return true
     }
 
@@ -42,5 +44,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+class ReactBootstrap {
+    static func bootstrapRootViewController() -> UIViewController{
+        let jsCodeLocation = URL(string: "http://localhost:8081/index.ios.bundle?platform=ios")
+        let reactRootView = RCTRootView(
+            bundleURL: jsCodeLocation,
+            moduleName: "THYHome",
+            initialProperties: nil,
+            launchOptions: nil
+        )
+        let reactRootViewController = UIViewController()
+        reactRootViewController.view = reactRootView
+        return reactRootViewController;
+    }
 }
 
