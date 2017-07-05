@@ -7,8 +7,9 @@ import {
   View,
   FlatList,
   TextInput,
-  Button
+  Button,
 } from 'react-native';
+import Keyboard from './app/THYKeyboard/Keyboard';
 
 const styles = StyleSheet.create({
   container: {
@@ -98,19 +99,5 @@ class THYHome extends Component {
 }
 
 
-class THYKeyboard extends Component{
-  constructor(props){
-    super(props);
-  }
-  render(){
-    return (
-      <View style={styles.container}>
-        <Text>{"Hello World"}</Text>
-      </View>
-    );
-  }
-}
-
-
 AppRegistry.registerComponent('THYHome', () => THYHome);
-AppRegistry.registerComponent('THYKeyboard', () => THYKeyboard);
+AppRegistry.registerComponent('THYKeyboard', () => Keyboard);

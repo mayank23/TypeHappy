@@ -17,6 +17,7 @@
 		A8228F051F09EBDD00D84715 /* TypeHappyKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A8228EFE1F09EBDD00D84715 /* TypeHappyKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A8242E0E1F0AC26300E6235B /* RNTextDocumentProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8242E0D1F0AC26300E6235B /* RNTextDocumentProxy.swift */; };
 		A8242E111F0AECA900E6235B /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8242E101F0AECA900E6235B /* Keyboard.storyboard */; };
+		A84E14A31F0C5E2100C60E26 /* RNKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E14A21F0C5E2100C60E26 /* RNKeyboardViewController.swift */; };
 		D661A878633C0E32A2C4AE40 /* Pods_TypeHappy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437B70D4DE30132EF114AD60 /* Pods_TypeHappy.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		A8242E0D1F0AC26300E6235B /* RNTextDocumentProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNTextDocumentProxy.swift; sourceTree = "<group>"; };
 		A8242E0F1F0AC38A00E6235B /* TypeHappyKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TypeHappyKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
 		A8242E101F0AECA900E6235B /* Keyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
+		A84E14A21F0C5E2100C60E26 /* RNKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNKeyboardViewController.swift; sourceTree = "<group>"; };
 		BDE101E37326E008980F3D24 /* Pods-TypeHappyKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappyKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappyKeyboard/Pods-TypeHappyKeyboard.release.xcconfig"; sourceTree = "<group>"; };
 		D5A307A65BC0419AA850C172 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		F6AA2B5CF82B25A2C5D8E9E0 /* Pods-TypeHappy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TypeHappy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TypeHappy/Pods-TypeHappy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				A8242E0D1F0AC26300E6235B /* RNTextDocumentProxy.swift */,
 				A8242E0F1F0AC38A00E6235B /* TypeHappyKeyboard-Bridging-Header.h */,
 				A8242E101F0AECA900E6235B /* Keyboard.storyboard */,
+				A84E14A21F0C5E2100C60E26 /* RNKeyboardViewController.swift */,
 			);
 			path = TypeHappyKeyboard;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			files = (
 				A8242E0E1F0AC26300E6235B /* RNTextDocumentProxy.swift in Sources */,
 				A8228F011F09EBDD00D84715 /* KeyboardViewController.swift in Sources */,
+				A84E14A31F0C5E2100C60E26 /* RNKeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,8 @@ import React
 class KeyboardViewController: UIInputViewController {
 
     @IBOutlet var nextKeyboardButton: UIButton!
+    var reactRootView: RCTRootView!
+    var jsCodeLocation: URL!
     
     override func updateViewConstraints() {
         super.updateViewConstraints()
@@ -19,12 +21,15 @@ class KeyboardViewController: UIInputViewController {
         // Add custom view sizing constraints here
     }
     
+    override func viewDidLayoutSubviews() {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.autoresizesSubviews = true;
         // Perform custom UI setup here
         self.nextKeyboardButton = UIButton(type: .system)
-        self.nextKeyboardButton.setTitle(NSLocalizedString("Next Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
+        self.nextKeyboardButton.setTitle(NSLocalizedString("Next1s Keyboard", comment: "Title for 'Next Keyboard' button"), for: [])
         self.nextKeyboardButton.sizeToFit()
         self.nextKeyboardButton.translatesAutoresizingMaskIntoConstraints = false
         
@@ -34,15 +39,16 @@ class KeyboardViewController: UIInputViewController {
         
         self.nextKeyboardButton.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
         self.nextKeyboardButton.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
-        let jsCodeLocation = URL(string: "http://192.168.2.5:8081/index.ios.bundle?platform=ios")
-        let reactRootView = RCTRootView(
-            bundleURL: jsCodeLocation,
+        self.jsCodeLocation = URL(string: "http://192.168.2.5:8081/index.ios.bundle?platform=ios")
+        self.reactRootView = RCTRootView(
+            bundleURL: self.jsCodeLocation,
             moduleName: "THYKeyboard",
             initialProperties: nil,
             launchOptions: nil
         )
         let reactRootViewController = UIInputViewController()
-        reactRootViewController.view = reactRootView
+        reactRootViewController.view = self.reactRootView
+        
         self.present(reactRootViewController, animated: true, completion: nil)
     }
     
